@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#data {
+    margin-bottom: 10px;
+}
+
+#data input {
+    padding: 10px;
+    width: 170px;
+}
+
+button {
+    width: 193px;
+    margin-left: 1px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #fec106;
+    margin: 20px auto;
+    font-family: montserrat;
+    width: 70%;
+    max-width: 500px;
+}
+
+table th, td {
+    border: 1px solid #fec106;
+}
+
+table th {
+    text-align: center;
+    background: #fec107;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+table td {
+    text-align: left;
+    background: #382c6e;
+    color: white;
+    padding: 20px;
+}
+
+table .orange {
+    background: #e5ae30;
+}

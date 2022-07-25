@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4nd</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Append table</h1>
+    <div id="data">
+        <input type="text" placeholder="vardas" id="name">
+        <input type="text" placeholder="pavardė" id="lastname">
+        <input type="text" placeholder="amžius" id="age"><br>
+        <button id="Add">Prideti</button>
+        <button onclick="DeleteFirst()">Istrinti pirma</button>
+        <button id="DeleteLast"">Istrinti paskutini</button>
+    </div>
+    <table id="myTable">
+        <tr>
+            <th>Vardas</th>
+            <th class="orange">Pavardė</th>
+            <th>Amžius</th>
+        </tr>
+        <tr>
+            <td>Jonas</td>
+            <td>Rimkus</td>
+            <td>54</td>
+        </tr>
+    </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
